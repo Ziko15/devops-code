@@ -3,4 +3,4 @@ From tomcat:8-jre8
 
 # Maintainer 
 MAINTAINER "310511" 
-COPY webapp/target/devops.war /usr/local/tomcat/webapps
+COPY ./webapp/target/devops.war /usr/local/tomcat/webapps
